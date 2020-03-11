@@ -24,7 +24,7 @@ remaining_days = 1  # Preencher a quantidade de dias de retenção
 now = time.time()
 parameter = now - (remaining_days * 86400)
 
-files = get_list_files("C:\\Users\\rodolfho.queiroz\\Downloads") # Informar a pasta "pais" em que o script deve percorrer
+files = get_list_files("C:\\Users\\rodolfho.queiroz\\Downloads") # Informar a pasta "pai" em que o script deve percorrer
 
 for file in files:
     f = get_timestampfile(file)
